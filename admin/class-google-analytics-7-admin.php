@@ -61,18 +61,18 @@ class Google_Analytics_7_Admin {
 	}
 	// adding settings links on plugins page
 	public function add_action_links( $links ) {
-   $settings_link = array(
-    '<a href="' . admin_url( 'options-general.php?page=' . $this->plugin_name ) . '">' . __('Settings', $this->plugin_name) . '</a>',
-   );
-   return array_merge(  $settings_link, $links );
-   }
-   // displaying the plugin settings page
-   public function display_plugin_setup_page(){
-   	include_once('partials/google-analytics-7-admin-display.php');
-   }
-   // saving options
+        $settings_link = array(
+        '<a href="' . admin_url( 'options-general.php?page=' . $this->plugin_name ) . '">' . __('Settings', $this->plugin_name) . '</a>',
+    );
+        return array_merge(  $settings_link, $links );
+    }
+    // displaying the plugin settings page
+    public function display_plugin_setup_page(){
+   	    include_once('partials/google-analytics-7-admin-display.php');
+    }
+    // saving options
     public function options_update() {
-    register_setting($this->plugin_name, $this->plugin_name);
+        register_setting($this->plugin_name, $this->plugin_name);
     }
 
 
