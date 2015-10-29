@@ -1,5 +1,5 @@
 === Plugin Name ===
-Contributors: (this should be a list of wordpress.org userid's)
+Contributors: ShakilAhmed
 Donate link: http://www.shakilahmed.net
 Tags: Google Analytics
 Requires at least: 3.0.1
