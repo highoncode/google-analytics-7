@@ -26,5 +26,5 @@ A simple and easy solution to add Google Analytics code to your WordPress site.
 2. Plugin in action at its settings page.
 
 == Changelog ==
-= 1 =
+= 1.0 =
 * First version released
