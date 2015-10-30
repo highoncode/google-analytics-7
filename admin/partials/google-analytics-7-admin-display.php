@@ -22,8 +22,8 @@
 
     <?php settings_fields($this->plugin_name);
     do_settings_sections($this->plugin_name); ?>
-         <?php $options = get_option($this->plugin_name); 
-     $gacode = $options['gacode']; ?>
+    <?php $options = get_option($this->plugin_name); 
+    $gacode = $options['gacode']; ?>
                     <fieldset>
                         <p><?php _e('Paste your Google Analytics code here', $this->plugin_name); ?></p>
                         <legend class="screen-reader-text"><span><?php _e('Paste your Google Analytics code here', $this->plugin_name); ?></span></legend>
